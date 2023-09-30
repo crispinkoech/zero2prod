@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use zero2prod::run;
+use zero2prod::startup::*;
 
 #[tokio::main]
 async fn main() -> Result<(), std::io::Error> {
